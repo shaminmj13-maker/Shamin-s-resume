@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> YOUR NAME| BCA Graduate</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            /* background-image:url("https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg"); */
+            color: #c8d5f0;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            /* background: linear-gradient(to right, #4f03db, #0412dd); */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #c5c0c0;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #000308;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #020617;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #04b17d;
+        }
+
+        .about, .skills, .projects, .contact {
+            
+            margin-bottom: 30px;
+            border-radius: 15px;
+            padding: 40px;
+        }
+
+        .skills-list span {
+            display: inline-block;
+            background: #104141;
+            padding: 10px 20px;
+            margin: 8px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #94a3b8;
+        }
+        .bg-video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        /* Dark overlay */
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        /* Content on top of video */
+        .content {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+       <video class="bg-video" autoplay muted loop playsinline>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Hero Section -->
+    <header>
+        <div>
+            <img src="https://images.pexels.com/photos/14354113/pexels-photo-14354113.jpeg" alt="width="250px" height="200px"
+            
+             <h1, I'm<span><marquee>SHAMIN</marquee></span></h1>
+            <p>BCA Graduate | ML & AI Enthusiast | GCP Learner</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a motivated BCA graduate and a fresher with strong interest in
+            Machine Learning, Artificial Intelligence, and Cloud Computing.
+            I enjoy building intelligent applications and experimenting with
+            real-world datasets using modern technologies.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Artificial Intelligence</span>
+            <span>Google Cloud Platform (GCP)</span>
+            <span>Data Analysis</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>🔹 ML-Based Prediction System</h3>
+            <p>Developed a machine learning model to predict outcomes using real-world datasets.</p>
+        </div>
+
+        <div class="project">
+            <h3>🔹 AI Chatbot</h3>
+            <p>Created an AI-powered chatbot using NLP concepts to answer user queries.</p>
+        </div>
+
+        <div class="project">
+            <h3>🔹 Cloud Deployment on GCP</h3>
+            <p>Deployed ML models and web applications on Google Cloud Platform.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:shaminmj13@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
+        <p>GitHub: github.com/yourname</p>
+    </section>
+
+    <footer>
+        © 2026 Your Name | All Rights Reserved
+    </footer>
+
+</body>
+</html>
